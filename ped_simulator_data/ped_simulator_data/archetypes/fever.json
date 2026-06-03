@@ -1,0 +1,89 @@
+{
+  "id": "fever",
+  "label": "Fever without obvious source",
+  "label_hu": "Lázas gyermek",
+  "label_de": "Fieber ohne klaren Fokus",
+  "sub_specialty": [
+    "Infectious/febrile"
+  ],
+  "age_band": "3-12m",
+  "exam_defaults": {
+    "perturb_age": false,
+    "age_range_years": [
+      1,
+      4
+    ],
+    "allow_sex_flip": true
+  },
+  "skeleton": {
+    "history_checklist": [
+      "A láz magassága és időtartama",
+      "Reagálás a lázcsillapítóra",
+      "Az elfogyasztott táplálék mennyisége a szokásoshoz képest",
+      "Vizes pelenkák / vizeletmennyiség és -szag",
+      "Hányás",
+      "Köhögés / nátha (gócszűrés)",
+      "Kiütés",
+      "Hasmenés",
+      "Idegrendszeri tünetek / nyugtalanság",
+      "Oltottsági állapot",
+      "Korábbi betegségek / húgyúti anamnézis",
+      "Beteg kontaktok és utazás",
+      "Elképzelések, aggodalmak, elvárások (EAE) feltárása"
+    ],
+    "red_flags_to_elicit": [
+      "Magas láz góc nélkül",
+      "Rossz étvágy, keveset eszik",
+      "Csökkent vizeletürítés",
+      "Kifejezett nyugtalanság / levertség"
+    ],
+    "exam_checklist": [
+      "Vitális paraméterek áttekintése",
+      "Hasi / suprapubicus vizsgálat kérése",
+      "Meningizmus és kutacs felmérése",
+      "A bőr átvizsgálása kiütés irányában",
+      "Hidráltsági állapot felmérése"
+    ],
+    "investigation_checklist": [
+      "Vizeletvizsgálat (tesztcsík)",
+      "Vizelettenyésztés elküldése",
+      "Vérkép / gyulladásos paraméterek",
+      "Hemokultúra (ha rossz állapotú)"
+    ]
+  },
+  "diagnosis_pool": {
+    "must_not_miss": [
+      "Agyhártyagyulladás / szepszis",
+      "Húgyúti fertőzés",
+      "Tüdőgyulladás",
+      "Kawasaki-betegség (ha a láz elhúzódik)"
+    ],
+    "expected_differential": [
+      "Húgyúti fertőzés",
+      "Vírusos betegség",
+      "Okkult bacteraemia",
+      "Tüdőgyulladás",
+      "Középfülgyulladás"
+    ],
+    "accepted_differential": [
+      "Gastroenteritis",
+      "Roseola (háromnapos láz)"
+    ],
+    "contraindicated": []
+  },
+  "weights": {
+    "history": 20,
+    "red_flags": 20,
+    "must_not_miss": 20,
+    "differential": 15,
+    "investigations": 15,
+    "communication": 5
+  },
+  "language_notes": {
+    "hu": [],
+    "de": [],
+    "en": []
+  },
+  "draft": true,
+  "_note": "DERIVED from existing cases by unioning their checklists/pools. Faculty: refine in the Workbench."
+}
