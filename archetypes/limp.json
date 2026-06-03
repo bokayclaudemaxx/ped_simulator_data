@@ -1,0 +1,91 @@
+{
+  "id": "limp",
+  "label": "The limping child",
+  "label_hu": "Sántító gyermek",
+  "label_de": "Das hinkende Kind",
+  "sub_specialty": [
+    "MSK"
+  ],
+  "age_band": "5-11y",
+  "exam_defaults": {
+    "perturb_age": false,
+    "age_range_years": [
+      3,
+      8
+    ],
+    "allow_sex_flip": true
+  },
+  "skeleton": {
+    "history_checklist": [
+      "A sántítás kezdete és időbeli lefolyása",
+      "A fájdalom helye (a csípőfájdalom a térdbe vetülhet)",
+      "Trauma vagy sérülés az anamnézisben",
+      "Friss vírusos betegség / megelőző fertőzés",
+      "Láz fennállása",
+      "Terhelhetőség (rá tud-e nehezedni a lábra)",
+      "Éjszakai fájdalom vagy éjszakai ébredés",
+      "Szisztémás tünetek (fogyás, sápadtság, véraláfutás, éjszakai izzadás)",
+      "Más ízület érintettsége vagy kiütés",
+      "Korábbi betegségek és szülési/csípő-anamnézis",
+      "Oltottsági állapot",
+      "Gyógyszerek és allergiák",
+      "Elképzelések, aggodalmak, elvárások (EAE) feltárása"
+    ],
+    "red_flags_to_elicit": [
+      "Láz / szisztémás rossz közérzet",
+      "Terhelésképtelenség",
+      "Éjszakai fájdalom vagy éjszakai ébredés",
+      "Fogyás, sápadtság vagy szokatlan véraláfutás",
+      "Több ízület érintettsége vagy kiütés"
+    ],
+    "exam_checklist": [
+      "Hőmérséklet / vitális paraméterek áttekintése",
+      "A járás és a terhelhetőség megfigyelése",
+      "A csípő mozgásterjedelmének vizsgálata",
+      "A térd vizsgálata (vetülő fájdalom)",
+      "Szűrés más ízületekre / kiütésre / szisztémás jelekre"
+    ],
+    "investigation_checklist": [
+      "Vérkép / gyulladásos paraméterek (fvs, CRP, We)",
+      "Csípő-ultrahang",
+      "Csípő / medence röntgen"
+    ]
+  },
+  "diagnosis_pool": {
+    "must_not_miss": [
+      "Szeptikus arthritis",
+      "A combfej epifízisének elcsúszása (SCFE)",
+      "Malignitás (pl. leukémia, csontdaganat)",
+      "Bántalmazás (nem baleseti sérülés)"
+    ],
+    "expected_differential": [
+      "Tranziens (átmeneti) synovitis (irritábilis csípő)",
+      "Szeptikus arthritis",
+      "Perthes-kór",
+      "A combfej epifízisének elcsúszása (SCFE)",
+      "Törés / trauma (beleértve a toddler-törést)",
+      "Juvenilis idiopátiás arthritis",
+      "Reaktív arthritis"
+    ],
+    "accepted_differential": [
+      "Contusio vagy rándulás",
+      "Növekedési fájdalom"
+    ],
+    "contraindicated": []
+  },
+  "weights": {
+    "history": 20,
+    "red_flags": 20,
+    "must_not_miss": 20,
+    "differential": 15,
+    "investigations": 15,
+    "communication": 5
+  },
+  "language_notes": {
+    "hu": [],
+    "de": [],
+    "en": []
+  },
+  "draft": true,
+  "_note": "DERIVED from existing cases by unioning their checklists/pools. Faculty: refine in the Workbench."
+}

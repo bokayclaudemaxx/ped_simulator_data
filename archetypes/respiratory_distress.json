@@ -1,0 +1,86 @@
+{
+  "id": "respiratory_distress",
+  "label": "Respiratory distress",
+  "label_hu": "Légzési nehézség",
+  "label_de": "Atemnot",
+  "sub_specialty": [
+    "Respiratory"
+  ],
+  "age_band": "3-12m",
+  "exam_defaults": {
+    "perturb_age": false,
+    "age_range_years": [
+      1,
+      4
+    ],
+    "allow_sex_flip": true
+  },
+  "skeleton": {
+    "history_checklist": [
+      "Kezdet és lefolyás (nátha → köhögés → légzés)",
+      "Légzési munka / zajos légzés",
+      "Az elfogyasztott táplálék mennyisége a szokásoshoz képest",
+      "Vizes pelenka / vizeletürítés",
+      "Apnoe vagy színváltozással járó epizódok",
+      "Láz",
+      "Korábbi légúti anamnézis / korábbi zihálás",
+      "Szülési anamnézis (koraszülöttség)",
+      "Oltottsági állapot",
+      "Beteg kontaktok otthon",
+      "Dohányfüst-expozíció",
+      "Elképzelések, aggodalmak, elvárások (EAE) feltárása"
+    ],
+    "red_flags_to_elicit": [
+      "Rossz étvágy (a szokásos kevesebb mint 50%-a)",
+      "Csökkent számú vizes pelenka",
+      "Fokozott légzési munka",
+      "Apnoés epizódok"
+    ],
+    "exam_checklist": [
+      "Vitális paraméterek áttekintése, beleértve az SpO2-t",
+      "Légzőszervi vizsgálat / légzési munka kérése",
+      "Hidráltsági állapot felmérése"
+    ],
+    "investigation_checklist": [
+      "Pulzoximetria / megfigyelés",
+      "Felismerni, hogy a vérvétel és a mellkasröntgen rutinszerűen NEM szükséges"
+    ]
+  },
+  "diagnosis_pool": {
+    "must_not_miss": [
+      "Tüdőgyulladás / szepszis",
+      "Apnoe fiatal csecsemőnél",
+      "Fel nem ismert veleszületett szívbetegség",
+      "Idegentest-aspiráció"
+    ],
+    "expected_differential": [
+      "Bronchiolitis",
+      "Vírus indukálta zihálás",
+      "Tüdőgyulladás",
+      "Korai asztma (1 év alatt ritka)",
+      "Szívelégtelenség (pl. fel nem ismert szívfejlődési rendellenesség)"
+    ],
+    "accepted_differential": [
+      "Vírusos felső légúti fertőzés"
+    ],
+    "contraindicated": [
+      "Rutinszerű antibiotikum bronchiolitisben",
+      "Szisztémás szteroid vagy bronchodilatátor rutinszerű adása bronchiolitisben"
+    ]
+  },
+  "weights": {
+    "history": 20,
+    "red_flags": 20,
+    "must_not_miss": 20,
+    "differential": 15,
+    "investigations": 15,
+    "communication": 5
+  },
+  "language_notes": {
+    "hu": [],
+    "de": [],
+    "en": []
+  },
+  "draft": true,
+  "_note": "DERIVED from existing cases by unioning their checklists/pools. Faculty: refine in the Workbench."
+}
